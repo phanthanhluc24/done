@@ -1,0 +1,119 @@
+*{
+    padding: 0px;
+    margin: 0px;
+  }
+  body{
+    font-family:'Times New Roman';
+    font-size: 17px;
+  }
+  #open{
+    background: goldenrod;
+    width: 600px;
+    height: 70px;
+    margin: 0px auto;
+  }
+  ul.body >li{
+    list-style: none;
+    float: left;
+    position: relative;
+  }
+  ul.body> li> a{
+    text-decoration: none;
+    line-height: 45px;
+    padding: 2px 15px;
+    display: block;
+  }
+  ul.body li a:hover{
+    background: hotpink;
+    color: aqua;
+  }
+ .love{
+    background: burlywood;
+    width: 100px;
+    position: absolute;
+    display: none;
+    min-height:100px ;
+    list-style: none;
+    /* left: 0px; */
+ }
+ ul.love li a{
+         line-height: 30px;
+         text-indent: 5px;
+         text-decoration: none;
+         border-bottom: 1px solid darkkhaki;
+     
+ }
+ ul.body > li:hover ul.love{
+    display: block;
+ }
+  ul.con{
+    background: forestgreen;
+    list-style: none;
+    width: 100px;
+    left: 100px;
+    position:absolute;
+    top: 40px;
+ } 
+ ul.body ul.love ul.con{
+    display: none;
+ }
+ ul.body ul.love> li:hover ul.con{
+    display: block;
+ } 
+ #top{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.title{
+    text-align: center;
+    margin: 40px 0px;
+
+}
+.call{
+    font-size: 20px;
+    color: blue;
+    padding: 10px 30px;
+    text-transform: uppercase;
+    border: 1px solid red;
+    display: inline-block;
+}
+h3{
+    text-transform: uppercase;
+    text-align: center;
+
+}
+.buy {
+    margin: 10px auto;
+    background-color: blueviolet;
+}
+.price{
+    text-align: center;
+}
+ul.producted{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+}
+ul.producted li{
+    flex-basis: 33%;
+    list-style: none;
+    padding-left:15px;
+    padding-right: 15px;
+    padding-top:15px;
+    padding-bottom:15px ;
+    box-sizing: border-box;
+}
+ul.producted li .producphoto a{
+    display: block;
+    text-decoration: none;
+}
+ul.producted li .producphoto a.namepr{
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    color: brown;
+}
+ul.producted li .producphoto a.bro{
+    font-size: 15px;
+    color: forestgreen;
+}

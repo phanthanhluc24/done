@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+ *{
+   padding: 0px;
+   margin: 0px;
+ }
+ body{
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   font-size: 17px;
+ }
+ #open{
+   background: goldenrod;
+   width: 600px;
+   height: 50px;
+   margin: 0px auto;
+ }
+ ul.body >li{
+   list-style: none;
+   float: left;
+   position: relative;
+ }
+ ul.body> li> a{
+   text-decoration: none;
+   line-height: 45px;
+   padding: 2px 15px;
+   display: block;
+ }
+ ul.body li a:hover{
+   background: hotpink;
+   color: aqua;
+ }
+.love{
+   background: burlywood;
+   width: 100px;
+   position: absolute;
+   display: none;
+   min-height:100px ;
+   list-style: none;
+   /* left: 0px; */
+}
+ul.love li a{
+        line-height: 30px;
+        text-indent: 5px;
+        text-decoration: none;
+        border-bottom: 1px solid darkkhaki;
+    
+}
+ul.body > li:hover ul.love{
+   display: block;
+}
+ ul.con{
+   background: forestgreen;
+   list-style: none;
+   width: 100px;
+   left: 100px;
+   position:absolute;
+   top: 40px;
+} 
+ul.body ul.love ul.con{
+   display: none;
+}
+ul.body ul.love> li:hover ul.con{
+   display: block;
+} 
+    </style> 
+   
+</head>
+
+<body>
+    <div id="open">
+        <ul class="body">
+            <li><a href="">HOME</a>
+                <ul class="love">
+                    <li><a href="">Dang ky</a></li>
+                    <li><a href="">Dang nhap</a>
+                    <ul class="con">
+                        <li><a href="">Bang ten</a></li>
+                        <li><a href="">Gmail</a></li>
+                        <li><a href="">Facebook</a></li>
+                    </ul>
+                    </li>
+                    <li><a href="">Dang xuat</a></li>
+                    <li><a href="">Dang tai</a></li>
+                </ul>
+            </li>
+            <li><a href=""> MAT HANG</a></li>
+            <li><a href="">TIM KIEM</a> </li>
+            <li><a href="">PHAN HOI</a></li>
+        </ul>
+    </div>
+</body>
+</html>

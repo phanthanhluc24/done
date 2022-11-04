@@ -1,0 +1,40 @@
+
+body{
+    background-image: url('https://tse1.mm.bing.net/th?id=OIP.lAh1DeVZtxiRfJk2aT8glwHaFK&pid=Api&P=0');
+    background-size: cover;
+    background-position-y: -90px;
+}
+.c{
+    max-width: 960px;
+    margin: 0px auto;
+}
+#b{
+    background-color: blueviolet;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    list-style: none;
+}
+.c li a{
+    position: relative;
+}
+.c li a{
+    text-decoration: none;
+    color: bisque;
+    display: block;
+    padding: 18px 20px
+}
+
+.c .d {
+    position: absolute;
+    background-color: #f3f;
+    padding: 15px 0px;
+    list-style: none;
+    width: 100px;
+}
+.c .d a{
+padding: 8px 15px;
+border-bottom: 1px solid red;
+}
